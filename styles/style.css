@@ -496,8 +496,8 @@ body .box.reasonbox p {
 
 /* FEEDBACK */
 #feedback {
-    animation: title 1.25s ease;
-    animation-delay: 250ms;
+    animation: fadein 750ms ease backwards;
+    animation-delay: 750ms;
 }
 
 input:active, input:focus {
