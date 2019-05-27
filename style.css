@@ -1,3 +1,4 @@
+@import url('https://bdsources.github.io/sourcecheck/code.css');
 @font-face {
     font-family: Whitney;
     font-weight: 300;
@@ -106,7 +107,7 @@ body {
 }
 
 .code {
-    background: linear-gradient(45deg, rgb(114, 137, 218), rgb(102, 123, 193));
+    background: linear-gradient(45deg, rgb(114, 137, 218), rgb(92, 103, 173));
     box-shadow: rgba(114, 137, 218, 0.7) 0px 0px 100px;
     border-radius: 3px 0px 0 3px;
     color: #fff;
@@ -223,7 +224,7 @@ canvas {
 }
 
 .copycode {
-    background: linear-gradient(45deg, #43b581, #359067);
+    background: linear-gradient(45deg, #43b581, #30825d);
     box-shadow: #43b581 0px 0px 100px;
     border-radius: 0 3px 3px 0;
     color: #fff;
@@ -450,4 +451,41 @@ body .nav a.active {
 }
 #faqWrapper .notes p {
     font-style: italic;
+}
+body .box.reasonbox {
+  width:30%;
+   height:250px;
+}
+body .box.reasonbox img {
+  box-shadow:none;
+}
+body .box.reasonbox p {
+  margin:15px;
+  text-align:center;
+}
+
+.reasonbox .presetlink {
+  color:#7289DA;
+}
+
+.embed-IeVjo6 {
+    display: flex;
+    position: relative;
+    max-width: 520px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.embedInner-1-fpTo {
+    padding: 8px 10px;
+    padding-bottom:18px;
+}
+
+.embedTitle-3OXDkz {
+    display: inline-block;
+    font-size: 0.875rem;
+}
+.centercontainer {
+  display:flex;
+  justify-content:center;
 }
