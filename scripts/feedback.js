@@ -1,5 +1,10 @@
 var previousData = null;
 
+function logError(text) {
+  console.log("%c[ERROR]: %c" + text, "color: red; font-weight: bold;font-family: monospace", "color: initial; font-family: monospace");
+}
+
+
 function processComments(data) {
   if(!previousData) {
     previousData = data;
@@ -111,15 +116,13 @@ function fetchData() {
     return data
   })
   .catch(err => {
-    //logError(err);
-    console.log(err);
+    logError(err);
   });
 };
 
 fetchData();
 
 $("button[type=send]").click(()=>{
-  console.log("Submitting");
   var sender = $("[name=sender]").val(),
   type = $("[name=type]").val(),
   message = $("[name=message]").val();
