@@ -454,6 +454,15 @@ body .nav a.active {
     font-style: italic;
 }
 
+body .box.reasonbox {
+  width:30%;
+   height:250px;
+}
+
+body .box.reasonbox img {
+  box-shadow:none;
+}
+
 body .box.reasonbox p {
   margin:15px;
   text-align:center;
@@ -480,7 +489,6 @@ body .box.reasonbox p {
     display: inline-block;
     font-size: 0.875rem;
 }
-
 .centercontainer {
   display:flex;
   justify-content:center;
